@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldofWarcraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+        <!-- this is the nav-header of the website -->
+
+    <!-- Background und Audio -->
+    <div class="background-container">
+        <video id="bgvideo" muted autoplay loop>
+            <source src="Video/Wow-bgv.mp4" type="video/mp4">
+        </video>
+        <audio id="bmg" src="Audio/Elwynn Forest-Music_uvW-QTiZLQ0.mp3"></audio>
+    </div>
+    <!-- Background und Audio -->   
+
+    <!-- this is the nav-header of the website -->
+    <header class="nav-top-container">
+        <div class="leftbar-container">
+            <img class="w-logo" height="100px" width="100px" src="Img/Blizzard-logo.png" alt="">
+        </div>
+        <nav class="nav-bar-top">
+            <ul class="ul-top">
+                <li class="top-dropdown">
+                    <a class="nav-list-top" id="Game-info" href="#">Game Info <strong>ˇ</strong></a>
+                    <ul class="dropdown">
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://worldofwarcraft.blizzard.com/en-us/start">Overview</a></li>
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://worldofwarcraft.blizzard.com/en-us/game/races">Races</a></li>
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://worldofwarcraft.blizzard.com/en-us/game/classes">Classes</a></li>
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://worldofwarcraft.blizzard.com/en-us/return">Return Players</a></li>
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://worldofwarcraft.blizzard.com/en-us/game/status/us">Realm Status</a></li>
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://worldofwarcraft.blizzard.com/en-us/content-update-notes">Content Update</a></li>   
+                    </ul>
+                </li>
+                <li><a class="nav-list-top" href="https://thewarwithin.blizzard.com/de-de/">Expansion</a></li>
+                <li><a class="nav-list-top" id="News" href="https://worldofwarcraft.blizzard.com/en-us/news">News</a></li>
+                <li><a class="nav-list-top" id="Community" href="https://us.forums.blizzard.com/en/wow/">Community</a></li>
+                <li>
+                    <a class="nav-list-top" id="Shop" href="#">Shop <strong>ˇ</strong></a>
+                    <ul class="dropdown">
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://gear.blizzard.com/collections/world-of-warcraft">Mounts</a></li>
+                        <li class="top-dropdown"><a class="nav-list-top block" href="https://eu.shop.battle.net/de-de/family/world-of-warcraft">Gear</a></li>   
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="nav-top-right-container">
+            <div class="lupe-icon"></div>
+            <DIV class="searchbar-section">
+                <div class="searchbar-container">
+                    <div class="searchbar-content">
+                        <input type="searchbar" class="searchbar" placeholder="Search">
+                    </div>
+                </div>
+            </DIV>
+
+            <div class="nav-top-register">
+                <ul class="register-dropdown">
+                    <li>
+                        <a class="account-title" id="Account" href="#">Account</a>
+                        <ul class="register-dropdown-menu">
+                            <li class="account-list"><a class="account-details" href="https://eu.account.battle.net/login/de/?ref=https://oauth.battle.net/oauth/authorize?client_id%3Dd0c4063113f24e3cacf68776fedc648a%26redirect_uri%3Dhttps%253A%252F%252Fus.forums.blizzard.com%252Fen%252Fwow%252Fauth%252Fbnet%252Fcallback%26response_type%3Dcode%26scope%3Daccount.basic+account.full+account.standard.privileged+commerce.entitlements+email+private_flags+gamedata.publish.overwatch+gamedata.read.overwatch+overwatch.profiles+overwatch.game-data%26state%3D7a56079f371844d0746aa5c01b392d5c00be804adab4a44a&app=oauth&hostingApp=oauth"><button>Log In</button></a></li>
+                            <li class="account-list"><a class="account-details" href="https://eu.account.battle.net/login/de/?ref=https://oauth.battle.net/oauth/authorize?client_id%3Dd0c4063113f24e3cacf68776fedc648a%26redirect_uri%3Dhttps%253A%252F%252Fus.forums.blizzard.com%252Fen%252Fwow%252Fauth%252Fbnet%252Fcallback%26response_type%3Dcode%26scope%3Daccount.basic+account.full+account.standard.privileged+commerce.entitlements+email+private_flags+gamedata.publish.overwatch+gamedata.read.overwatch+overwatch.profiles+overwatch.game-data%26state%3D7a56079f371844d0746aa5c01b392d5c00be804adab4a44a&app=oauth&hostingApp=oauth">WoW Characters</a></li>
+                            <li class="account-list"><a class="account-details" href="https://eu.account.battle.net/login/de/?ref=https://oauth.battle.net/oauth/authorize?client_id%3Dd0c4063113f24e3cacf68776fedc648a%26redirect_uri%3Dhttps%253A%252F%252Fus.forums.blizzard.com%252Fen%252Fwow%252Fauth%252Fbnet%252Fcallback%26response_type%3Dcode%26scope%3Daccount.basic+account.full+account.standard.privileged+commerce.entitlements+email+private_flags+gamedata.publish.overwatch+gamedata.read.overwatch+overwatch.profiles+overwatch.game-data%26state%3D7a56079f371844d0746aa5c01b392d5c00be804adab4a44a&app=oauth&hostingApp=oauth">Account Settings</a></li>
+                            <li class="account-list"><a class="account-details" href="https://account.battle.net/creation/flow/creation-full">Sign Up</a></li>
+                            <li class="account-list"><a class="account-details" href="https://download.battle.net/de-de?product=bnetdesk">Download</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- this is the nav-header of the website -->
+
+<!-- this section contains the mainpage -->
+    <div class="mainpage-section">
+        <div class="mainpage-container">
+            <div class="mainpage-title">
+                <h1>World Of Warcraft</h1>
+            </div>
+            <div class="mainpage-text">
+                <p>Get back in the fight as you defend Azeroth from the shadows below. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees. </p>
+            </div>
+            <div class="mainpage-button">
+                <a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-the-war-within?utm_source=worldofwarcraft.com&utm_campaign=mktg-wow-global-11-prepurchase&utm_medium=referral&utm_content=wow_blog&_gl=1*19xa1rd*_ga*NDk2OTgzODg1LjE2OTkwMjE2ODg.*_ga_VYKNV7C0S3*MTY5OTA0NTE3MC41LjEuMTY5OTA0Nzc3MS42MC4wLjA."><button class="purchase-btn">Purchase</button></a>
+                <a href="https://thewarwithin.blizzard.com/de-de/"><button class="learnmore-btn">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+<!-- this section contains the mainpage -->
+ 
+<!-- this section is the news section -->
+    <div class="news-section">
+        <div class="news-container">
+
+            <div class="news-content slide-one">
+                <div class="bottom-container">
+                    <div class="bottom-content">
+                        <h4 class="news-subtitle">November 14, 2024</h4>
+                        <h3 class="news-title">Look up the new Classes for Horde and Alliance!</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-content slide-two">
+                <div class="bottom-container">
+                    <div class="bottom-content">
+                        <h4 class="news-subtitle">November 14, 2024</h4>
+                        <h3 class="news-title">Be ready and explore the new Dangerous Dungeons ahead!</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-content slide-three">
+                <div class="bottom-container">
+                    <div class="bottom-content">
+                        <h4 class="news-subtitle">November 14, 2024</h4>
+                        <h3 class="news-title">Subscripe and get the new Ice Dragon!</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-content slide-four">
+                <div class="bottom-container">
+                    <div class="bottom-content">
+                        <h4 class="news-subtitle">November 7, 2024</h4>
+                        <h3 class="news-title">The new ADD ONE is out, get it now for new content!!</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>  
+
+    <!-- this is the end of the news section -->
+
+
+    <!-- this is the subscription section -->
+    <div class="subscription-section">
+        <div class="subsc-container">
+            <div class="subsc-title">
+                <h3>Join the World of Warcraft and begin an awesome Adventure</h3>
+            </div>
+            <div class="subsc-text">
+                <p>When you purchase a 12-Month Subscription Offer, you'll receive the benefits of the current 
+                    and upcoming 6-Month Subscription Offer, along with the new Startouched Furline and Gigantic Grrloc mounts for 
+                    World of Warcraft, plus the new Lava Drake mount for Classic Progression.
+                </p>
+            </div>
+            <div class="subsc-btn">
+                <a class="subsc-btn-subsc" href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-subscription">Subscribe</a>
+                <a class="subsc-btn-learn" href="https://worldofwarcraft.blizzard.com/en-us/news/24156594/">Learn More   </a>
+            </div>
+        </div>
+    </div>
+    <!-- end of the subscription section -->
+
+    <!-- Update and Hotfix section -->
+    <div class="update-section">
+        <div class="update-container">
+            <a href="https://worldofwarcraft.blizzard.com/en-us/news/24130678/" class="updates">
+                 <div class="update-content">
+                    <p class="update-text">The War Within</p>
+                     <h3 class="bottompage">Content Update Notes</h3>
+                 </div>
+             </a>
+
+             <a href="https://worldofwarcraft.blizzard.com/en-us/news/24134803/" class="hotfixes">
+                 <div class="hotfixes-content">
+                     <p class="hotfixes-text">Version 1.18.29    </p>
+                     <h3 class="bottompage">Hotfixes</h3>
+                 </div>
+            </a>
+        </div>
+    </div>
+    <!-- Update and Hotfix section -->
+
+    <!-- addone section -->
+    <div class="Addone-section">
+        <div class="Addone-container">
+            <div class="Addone-title"><h3>The War Within</h3></div>
+            <div class="Addone-text">The War Within is here with a lot of new Content. Get the Add One now and receive the new Shenglong mount and two legendary Weapons</div>
+            <div class="Addone-btn">
+                <a class="buy-btn" href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-the-war-within?utm_source=worldofwarcraft.com&utm_campaign=mktg-wow-global-11-prepurchase&utm_medium=referral&utm_content=wow_blog&_gl=1*19xa1rd*_ga*NDk2OTgzODg1LjE2OTkwMjE2ODg.*_ga_VYKNV7C0S3*MTY5OTA0NTE3MC41LjEuMTY5OTA0Nzc3MS42MC4wLjA.">Get It</a>
+                <a class="details-btn" href="https://thewarwithin.blizzard.com/de-de/">Details</a>
+            </div>
+        </div>
+    </div>
+    <!-- addone section -->
+
+    <!-- footer -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="support">
+                    <a class="support-list" href="#Game-info">Game info</a>
+                    <a class="support-list" href="#News">News</a>
+                    <a class="support-list" href="#Community">Community</a>
+                    <a class="support-list" href="#Shop">Shop</a>
+                    <a class="support-list" href="#Account">Account</a>
+                </div>
+
+                <div class="logo policy-container">
+                    <div class="blizzard-logo-left">
+                        <img src="Img/Blizzard-logo.png" height="100px" width="150px" alt="">
+                    </div>
+                    <div class="policy-right-container">
+
+                        <div class="company-info">
+                            <p>©2024 Blizzard Entertainment, Inc.
+                                All trademarks referenced herein are the properties of their respective owners.</p>
+                        </div>
+
+                        <div class="policy">
+                            <a class="policy-list" href="https://www.blizzard.com/de-de/privacy">Privacy</a>
+                            <a class="policy-list" href="https://www.blizzard.com/de-de/legal/">Legal</a>
+                            <a class="policy-list" href="https://www.blizzard.com/de-de/legal">Terms</a>
+                            <a class="policy-list" href="https://www.blizzard.com/de-de/cookies">Cookie Policy</a>
+                            <a class="policy-list" href="https://www.blizzard.com/de-de/cookies#settings">Cookie Settings</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fsk">
+                <div class="fsk-container">
+                     <img src="Img/icons8-fsk-12-50.png" height="70px" width="70px" alt="">
+                </div>
+            </div>
+            </div>
+
+                 <div class="footer-right">
+
+                    <div class="dropup">
+                        <div class="btn-container">
+                        <button class="dropbtn">Languages ▲</button>
+                    </div>
+                        <div class="dropup-content">
+                          <a href="#">English</a>
+                          <a href="#">German</a>
+                          <a href="#">France</a>
+                          <a href="#">Russian</a>
+                          <a href="#">Japanese</a>
+                          <a href="#">Dutch</a>
+                          <a href="#">Italien</a>
+                        </div>
+                      </div>
+
+                      <div class="socialmedia">
+                        <a class="socialmedia-link" href="https://www.instagram.com/#"><img  class="socialmedia-icons" src="Img/Instagram.png" alt=""></a>
+                        <a class="socialmedia-link" href="https://www.facebook.com/Blizzard/"><img  class="socialmedia-icons" src="Img/facebook (1).png" alt=""></a>
+                        <a class="socialmedia-link" href="https://www.youtube.com/blizzard"><img  class="socialmedia-icons" src="Img/youtube.png" alt=""></a>
+                        <a class="socialmedia-link" href="https://x.com/Blizzard_Ent"><img  class="socialmedia-icons" src="Img/twitter.png" alt=""></a>
+                        <a class="socialmedia-link" href=""><img  class="socialmedia-icons" src="Img/zucken.png" alt=""></a>
+                      </div>
+
+                 </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- aside-section -->
+     <aside class="aside-section">
+
+        <div class="aside-container">
+
+             <div class="anniversary">
+                 <div class="anniversary-content">
+                    <p>WATCH 30TH ANNIVERSARY LIVE ON TWITCH!</p>
+                 </div>
+             </div>
+
+             <div class="watch-live">
+                 <div class="watch-live-content">
+                    <a href="https://news.blizzard.com/de-de/world-of-warcraft/24148499/kommt-mit-dem-direct-zum-30-jubilaum-von-warcraft-auf-den-neuesten-stand-was-die-zukunft-von-warcraft-betrifft">WATCH NOW!</a>
+                 </div>
+             </div>
+
+         </div>
+
+     </aside>
+     <!-- aside-section -->
+
+     
+
+</body>
+</html>
